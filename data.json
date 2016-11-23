@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/sg-derelict-proximity",
+    "title": "Population living in close proximity to a derelict site",
+    "description": "Percent of people in Edinburgh living within 500 metres of a derelict site.",
+    "landingPage": "https://github.com/EdinburghCityScope/sg-derelict-proximity",
+    "issued": "2016-10-21",
+    "modified": "2016-11-21",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "NHS Information Services Division",
+        "mbox": "NSS.isdSCT@nhs.net"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "population", "housing", "community"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-derelict-proximity/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Population living in close proximity to a derelict site data",
+            "description": "Percent of people living within 500 metres of a derelict site by Edinburgh Data Zones 2001 as published by Scottish Government. Data taken from http://statistics.gov.scot/data/proximity-to-derelict-site",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-derelict-proximity/master/data/derelict-proximity.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
